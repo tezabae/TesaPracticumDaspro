@@ -12,10 +12,7 @@ public class ifCetakKRSNoPresensi {
             System.out.println("KRS now can be printed.");
         } else {
             System.out.println("UKT payment not confirmed.");
-            System.out.println("KRS cannot be printed.");
-
-
-            
+            System.out.println("KRS cannot be printed.");   
         }
     }
 }
