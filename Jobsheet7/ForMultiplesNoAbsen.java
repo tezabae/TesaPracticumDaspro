@@ -17,7 +17,7 @@ public class ForMultiplesNoAbsen {
                 counter++;
                 
                 System.out.printf("Multiple %d: %d\n", counter, multiple);
-                System.out.printf("the sum of all multiples of %d in range 1 t0 50 is %d. \n", multiple , sum);
+                System.out.printf("the sum of all multiples of %d in range 1 t0 50 is %d. \n", multiple , sum); 
             }
         }
         
