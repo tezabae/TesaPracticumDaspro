@@ -132,5 +132,6 @@ public class academicAssesment {
     System.out.println("Status Semester      : " + statusSemester);
     System.out.println(
         "=========================================================================================================");
+    
   }
-}
+} 
