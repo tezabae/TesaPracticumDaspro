@@ -1,20 +1,37 @@
 package Jobsheet11;
 import java.util.Scanner;
+
 public class CinemaWithScanner {
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int row, coloumn;
+        int row, column;
         String name, next;
 
-        String [][] audience = new String [4][2];
+        String[][] audience = new String[4][2];
 
-        While (true) {
-            
+        while (true) {
+            System.out.print("Enter a name: "); 
+            name = sc.nextLine();
 
+            System.out.print("Enter row number: ");
+            row = sc.nextInt();
+
+            System.out.print("Enter column number: ");
+            column = sc.nextInt();
+            sc.nextLine(); // consume newline
+
+            audience[row - 1][column - 1] = name;
+
+            System.out.print("Are there any audiences to be added? (Y/N): ");
+            next = sc.nextLine();
+
+            if (next.equalsIgnoreCase("n")) {
+                break;
+            }
         }
 
-
+            System.out.println();
+        }
     }
-    
-}
+
