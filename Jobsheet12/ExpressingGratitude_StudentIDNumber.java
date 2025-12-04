@@ -20,8 +20,15 @@ public class ExpressingGratitude_StudentIDNumber {
             "You inspired me to love learning and made me feel like I could ask you anything.");
     }
 
+    // Method to display additional greetings with String parameter
+    public static void sayAdditionalGreetings(String greeting) {
+        System.out.println(greeting);
+    }
+
     // Main method to test the functionality
     public static void main(String[] args) {
         sayThankyou();
+        System.out.println();
+        sayAdditionalGreetings("Thank you... wish you all the best!!");
     }
 }
