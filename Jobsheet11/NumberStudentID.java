@@ -14,6 +14,7 @@ public class NumberStudentID {
             System.out.println(Arrays.toString(myNumbers[i]));
         for (int j = 0; i < myNumbers.length; i++) {
             System.out.println("length of row " + (i + 1) + ": " + myNumbers[i].length);
+        for (int)
 
         }
         }
